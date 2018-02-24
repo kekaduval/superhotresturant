@@ -2,8 +2,7 @@ var express = require("express");
 var bodyParser = require("body-parser");
 var path = require("path");
 
-// Sets up the Express App
-// =============================================================
+
 var app = express();
 var PORT = 3000;
 
@@ -34,6 +33,10 @@ app.get("/", function(req, res) {
 });
 
 app.get("/table", function(req, res) {
+<<<<<<< HEAD
+=======
+
+>>>>>>> b4b2a9f15887c01ee23511affbfe7aaf582b7495
   res.sendFile(path.join(__dirname, "table.html"));
 });
 
